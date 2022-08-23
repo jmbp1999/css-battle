@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #62306d;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: #aa445f;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      border: 20px solid #e38f66;
+      position: relative;
+      top: -50px;
+    }
+    .special {
+      background: #e38f66;
+      border: 20px solid #aa445f;
+    }
+    .el {
+      background: #f7ec7d;
+      width: 100px;
+      height: 100px;
+      position: relative;
+    }
+    .el--1 {
+    }
+    .el--2 {
+      height: 200;
+    }
+    .el--3 {
+    }
+  </style>
+  <body>
+    <div class="el el--1">
+      <div class="circle special"></div>
+    </div>
+    <div class="el el--2">
+      <div class="circle"></div>
+    </div>
+    <div class="el el--3">
+      <div class="circle special"></div>
+    </div>
+  </body>
+</html>
